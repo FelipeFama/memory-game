@@ -1,9 +1,9 @@
 .grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 15px;
   width: 100%;
-  max-width: 800px;
+  max-width: 80%;
   margin: 100px auto;
 }
 
@@ -17,12 +17,8 @@
   transform-style: preserve-3d;
 }
 
-.card:hover {
-  transform: rotateY(180deg);
-}
-
 .face {
-  background-size: 9rem;
+  background-size: 9.5rem;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
@@ -31,11 +27,15 @@
 }
 
 .front {
-  background-image: url(../assets/images/Monk.png);
   transform: rotateY(180deg);
 }
 
 .back {
   background-image: url(../assets/images/nobody-background.png);
+  background-size: cover;
   backface-visibility: hidden;
+}
+
+.reveal-card {
+  transform: rotateY(180deg);
 }
