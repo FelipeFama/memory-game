@@ -9,7 +9,7 @@
 
 .card {
   aspect-ratio: 3/4;
-  background-color: #333;
+  background-color: #253134;
   width: 100%;
   border-radius: 5px;
   position: relative;
@@ -24,6 +24,7 @@
   width: 100%;
   height: 100%;
   position: absolute;
+  transition: all 400ms ease;
 }
 
 .front {
@@ -38,4 +39,9 @@
 
 .reveal-card {
   transform: rotateY(180deg);
+}
+
+.disabled-card {
+  filter: saturate(0);
+  opacity: 0.5;
 }
