@@ -16,7 +16,7 @@
 
 - Memory game with the theme of the game nobody saves the world.
 
-## :bulb:	Autor: FelipeFama
+## :bulb:	Author: FelipeFama
    Meus links:
    
    <a href="https://www.linkedin.com/in/felipe-fama/">
